@@ -2,6 +2,7 @@ import keyboard
 import threading
 import clipboard
 import time
+#import tkinter
 
 cp1 = None
 cp2 = None
@@ -54,5 +55,8 @@ for i in range(4, 0, -1):
     time.sleep(1)
 print("\rDual Clipboard terminated.    ") 
 keyboard.unhook_all_hotkeys()  
+
+
+##Ummm i aldready removed tkinter part... removed the import though... I was there before
 
 
